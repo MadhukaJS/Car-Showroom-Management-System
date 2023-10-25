@@ -20,7 +20,14 @@ function App() {
 
 
         <Route path="visitordashboard" element={<VisitorDashboard />} />
+
+
+        {/* owner */}
         <Route path="ownerdashboard" element={<OwnerDashboard />} />
+
+
+
+        owner
         
 
   
