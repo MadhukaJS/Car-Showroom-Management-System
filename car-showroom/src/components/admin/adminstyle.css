@@ -1,0 +1,44 @@
+/* Sidebar.css */
+.sidebar {
+    width: 220px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #004225; /* Customize the background color */
+    color: #ffffff; /* Customize the text color */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* header */
+/* Header.css */
+.header {
+    width: 100%;
+    height: 60px; /* Customize the height as needed */
+    background-color: #004225; /* Customize the background color */
+    color: #fff; /* Customize the text color */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+

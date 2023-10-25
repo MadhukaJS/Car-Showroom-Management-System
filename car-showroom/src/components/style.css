@@ -1,0 +1,13 @@
+admin side bar
+.navbar-vertical {
+    flex-direction: column; /* Display items vertically */
+  }
+  
+  .navbar-nav.flex-column {
+    width: 100%;
+  }
+  
+  .navbar-nav li {
+    margin-bottom: 10px; /* Adjust the spacing between items */
+  }
+  
