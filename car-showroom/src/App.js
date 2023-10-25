@@ -17,16 +17,16 @@ function App() {
 
         {/* admin */}
         <Route path="adminDashoboard" element={<AdminDashboard />} />
-        {/* <Route path="AdminSidebar" element={<Sidebar/>} /> */}
+        
 
         {/* visitor */}
         <Route path="visitordashboard" element={<VisitorDashboard />} />
-        {/* <Route path="VisitorSidebar" element={<Sidebar/>} /> */}
+        
 
 
         {/* owner */}
         <Route path="ownerdashboard" element={<OwnerDashboard />} />
-        {/* <Route path="sidebaradmin" element={<Sidebar/>} /> */}
+        
 
 
 
