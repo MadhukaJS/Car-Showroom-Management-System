@@ -138,16 +138,16 @@ export default function Home() {
       <Carousel>
         <div>
           <img
-            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/car-sale-promotion-facebook-cover-banner-design-template-904fb96ddd27f584e4da597e920ef22d_screen.jpg?ts=1630013522"
+            src="https://www.toyota.lk/wp-content/uploads/2020/10/Trade-In-Web-Banner.jpg"
             alt="Image 1"
           />
         </div>
-        <div>
-          <img src="image2.jpg" alt="Image 2" />
+        {/* <div>
+          <img src="https://assets.carpages.ca/dealersite/prod-wp-redline-auto-sales/uploads/2022/03/shutterstock_636632101__1_-scaled-1-e1668026364567.jpeg" alt="Image 2" />
         </div>
         <div>
-          <img src="image3.jpg" alt="Image 3" />
-        </div>
+          <img src="https://dragon2000-multisite.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/274/2022/04/19143130/hollins-hill-car-sales-home-hero-05.jpg" alt="Image 3" />
+        </div> */}
         {/* Add more images as needed */}
       </Carousel>
 
