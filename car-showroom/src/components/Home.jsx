@@ -15,12 +15,13 @@ export default function Home() {
         <div className="container">
           <a className="navbar-brand" href="#">
             <img
-              id="MDB-logo"
-              src="https://mdbcdn.b-cdn.net/wp-content/uploads/2018/06/logo-mdb-jquery-small.png"
-              alt="MDB Logo"
+              id="mps-logo"
+              src=""
+              alt="MPS mptors"
               draggable="false"
               height="30"
             />
+           
           </a>
           <button
             className="navbar-toggler"
@@ -108,15 +109,6 @@ export default function Home() {
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      <span className="fa-li pe-2">
-                        <i className="fas fa-search-plus"></i>
-                      </span>
-                      Advanced search
-                      <i className="fas fa-chevron-right ps-2"></i>
-                    </a>
-                  </li>
                 </ul>
                 <input
                   type="search"
@@ -129,20 +121,8 @@ export default function Home() {
                 <i className="fas fa-search ps-3"></i>
               </a>
             </form>
+
             <ul className="navbar-nav ms-3">
-              <li className="nav-item me-3">
-                <a className="nav-link d-flex align-items-center" href="#!">
-                  IMDbPro
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link d-flex align-items-center me-3"
-                  href="#!"
-                >
-                  <i className="fas fa-bookmark pe-2"></i> Watchlist
-                </a>
-              </li>
               <li className="nav-item" style={{ width: "65px" }}>
                 <a className="nav-link d-flex align-items-center" href="#!">
                   Sign In
@@ -294,7 +274,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* Repeat the above structure for more cards */}
+        
       </div>
     </div>
   );
