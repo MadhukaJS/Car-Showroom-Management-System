@@ -124,7 +124,7 @@ export default function Home() {
 
             <ul className="navbar-nav ms-3">
               <li className="nav-item" style={{ width: "65px" }}>
-                <a className="nav-link d-flex align-items-center" href="#!">
+                <a className="nav-link d-flex align-items-center" href="/login">
                   Sign In
                 </a>
               </li>
@@ -150,6 +150,12 @@ export default function Home() {
         </div> */}
         {/* Add more images as needed */}
       </Carousel>
+
+        <div>
+          <center>
+        <h3>EXPLORE ADVERTISEMENTS</h3>
+        </center>
+        </div>
 
       <div className="d-flex flex-wrap justify-content-center align-items-center p-4">
         {/* Card 1 */}
