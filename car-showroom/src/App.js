@@ -28,11 +28,6 @@ function App() {
         <Route path="ownerdashboard" element={<OwnerDashboard />} />
         
 
-
-
-        owner
-        
-
   
 
         {/* <Route path="adminsidebar" element={<AdminSlidebar/>}/> */}
