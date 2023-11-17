@@ -42,7 +42,7 @@ export default function OwnerDashboard() {
                         <div className="card-body">
                             <h5 className="card-title">Add Advertisements</h5>
                             <p className="card-text">Add advertisements to webpage.</p>
-                            <a href="/add-users" className="btn ">Add Advertisements</a>
+                            <a href="/addads" className="btn ">Add Advertisements</a>
                         </div>
                     </div>
                     <div className="card">
