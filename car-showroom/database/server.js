@@ -11,6 +11,7 @@ const getmessageRoute = require('./routes/getmessage');
 const getmessagebyidroute = require('./routes/getmessagebyid');
 const postuser = require('./routes/registrationroute');
 const loguser = require('./routes/loginroute');
+const postads=require('./routes/postads')
 
 const app = express();
 const PORT = 5000;
@@ -29,4 +30,5 @@ app.use('/get-message',getmessageRoute);
 app.use('/get-message-byid',getmessagebyidroute);
 app.use('/register',postuser);
 app.use('/login',loguser);
+app.use('/post-advertisement',postads);
 
