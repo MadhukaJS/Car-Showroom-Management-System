@@ -1,6 +1,8 @@
 const express = require('express');
-const router = express.Router();
+
 const Advertisement = require('../models/advertisementModel');
+
+const router = express.Router();
 
 // POST route for adding a new advertisement
 router.post('/post-advertisement', async (req, res) => {

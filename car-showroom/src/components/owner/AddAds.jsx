@@ -26,7 +26,9 @@ function AddAds() {
     };
 
     return (
-        <div className="container">
+        
+        <div className="modern-form">
+            <h2>Add Advertisements</h2>
             {/* <form  className="modern-form"> */}
                 <label htmlFor="title">Title: </label>
                 <input
