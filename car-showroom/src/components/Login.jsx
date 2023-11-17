@@ -1,31 +1,76 @@
-import React from 'react';
-import './login.css'
+import React, { useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+function Login() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    password: "",
+    age: "",
+  });
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+  const navigate = useNavigate();
+
+  const handleChange = (e) => {
+    const{name,value}=e.target;
+    setFormData({
+        ...formData,
+        [name]:value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post("http://localhost:5000/login", formData).then((res) => {
+        localStorage.setItem("jwtToken", res.data.token);
+        console.log("login successful");
+        setError(''); // Reset error on success
+        setSuccess(true);
+        navigate('/visitordashboard');
+      });
+    } catch (err) {
+      console.error("Registration failed", err.response.data);
+      setError(err.response.data.message); // Set error message
+    }
+  };
+
   return (
-    <div className="wrapper fadeInDown">
-      <div id="formContent">
-        {/* Icon */}
-        <div className="fadeIn first">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh6E1B5PKB6rvUktE90aKaIREmarD9Grxg4g&usqp=CAU" id="icon" alt="User Icon" />
-        </div>
+    <div>
+      <h2>Login</h2>
+      <form onSubmit={handleSubmit} className="modern-form">
+        <label>
+          email:
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <br />
 
-        {/* Login Form */}
-        <form>
-          <input type="text" id="login" className="fadeIn second" name="login" placeholder="login" />
-          <input type="text" id="password" className="fadeIn third" name="login" placeholder="password" />
-          <input type="submit" className="fadeIn fourth" value="Log In" />
-        </form>
+        <label>
+          Password:
+          <input
+            type="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <br />
 
-        {/* Rsign up */}
-        <div id="formFooter">
-          <a className="underlineHover" href="#">
-            Sign Up
-          </a>
-        </div>
-      </div>
+        <button type="submit">Login</button>
+      </form>
+      {error && <p style={{ color: "red" }}>{error}</p>}
+      {success && <p style={{ color: 'red' }}>{success}</p>}
     </div>
   );
-};
+}
 
 export default Login;

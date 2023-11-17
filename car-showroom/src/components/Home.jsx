@@ -125,7 +125,11 @@ export default function Home() {
             <ul className="navbar-nav ms-3">
               <li className="nav-item" style={{ width: "65px" }}>
                 <a className="nav-link d-flex align-items-center" href="/login">
-                  Sign In
+                  Log In
+                </a>
+                
+                <a className="nav-link d-flex align-items-center" href="/registration">
+                  Sign up
                 </a>
               </li>
             </ul>
