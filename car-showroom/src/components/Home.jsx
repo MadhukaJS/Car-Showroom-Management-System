@@ -214,6 +214,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Footer */}
+        <footer className="sticky-footer ">
+          <div className="container my-auto">
+            <div className="copyright text-center my-auto">
+              <span>MPS motor Traders &copy;2023</span>
+            </div>
+          </div>
+        </footer>
         
       </div>
     </div>
