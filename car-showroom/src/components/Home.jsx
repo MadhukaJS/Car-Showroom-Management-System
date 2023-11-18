@@ -96,15 +96,15 @@ export default function Home() {
         <div className="col-md-3">
           <div className="card">
             <img
-              src="https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?size=626&ext=jpg&ga=GA1.1.1744099774.1692098321&semt=sph"
-              alt="Image 1"
+              src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e"
+              alt="Image 3"
               className="card-img-top"
             />
             <div className="card-body">
-              <h5 className="card-title">My Appointments</h5>
-              <p className="card-text">View my appointments</p>
-              <a href="/add-users" className="btn">
-                My appointments
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur in ullam iusto! Itaque sequi repudiandae impedit. Libero ipsum architecto voluptate quibusdam dolore reprehenderit voluptates molestiae sapiente, quod non temporibus esse..</p>
+              <a href="/view-users" className="btn">
+              Book a time for view
               </a>
             </div>
           </div>
@@ -119,10 +119,10 @@ export default function Home() {
               className="card-img-top"
             />
             <div className="card-body">
-              <h5 className="card-title">My Profile</h5>
-              <p className="card-text">View My Profile.</p>
+              <h5 className="card-title">car test2</h5>
+              <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque similique, deserunt omnis laborum facere totam. Dignissimos laudantium, nisi culpa deserunt impedit minima doloremque incidunt similique quidem sapiente tempora officiis atque..</p>
               <a href="/view-users" className="btn">
-                Edit profile
+                Book a time for view
               </a>
             </div>
           </div>
@@ -137,10 +137,10 @@ export default function Home() {
               className="card-img-top"
             />
             <div className="card-body">
-              <h5 className="card-title">My Profile</h5>
-              <p className="card-text">View My Profile.</p>
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur in ullam iusto! Itaque sequi repudiandae impedit. Libero ipsum architecto voluptate quibusdam dolore reprehenderit voluptates molestiae sapiente, quod non temporibus esse..</p>
               <a href="/view-users" className="btn">
-                Edit profile
+              Book a time for view
               </a>
             </div>
           </div>
@@ -149,12 +149,12 @@ export default function Home() {
         {/* Card 4 */}
         <div className="col-md-3">
           <div className="card">
-            <img src="image_url_4" alt="Image 4" className="card-img-top" />
+            <img src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e" alt="Image 4" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">My Profile</h5>
-              <p className="card-text">View My Profile.</p>
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo iure natus eaque saepe ex ut eum ipsam, quibusdam non nemo corrupti cupiditate adipisci voluptatibus eius iste, sint blanditiis magnam..</p>
               <a href="/view-users" className="btn">
-                Edit profile
+              Book a time for view
               </a>
             </div>
           </div>
@@ -162,12 +162,12 @@ export default function Home() {
 
         <div className="col-md-3">
           <div className="card">
-            <img src="image_url_1" alt="Image 1" className="card-img-top" />
+            <img src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e" alt="Image 1" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">My Appointments</h5>
-              <p className="card-text">View my appointments</p>
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere libero debitis fugit assumenda iure quae reprehenderit soluta suscipit blanditiis laborum, tenetur quo corrupti dolor dolore voluptas earum magnam harum odio.</p>
               <a href="/add-users" className="btn">
-                My appointments
+              Book a time for view
               </a>
             </div>
           </div>
@@ -176,12 +176,12 @@ export default function Home() {
         {/* Card 2 */}
         <div className="col-md-3">
           <div className="card">
-            <img src="image_url_2" alt="Image 2" className="card-img-top" />
+            <img src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e" alt="Image 2" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">My Profile</h5>
-              <p className="card-text">View My Profile.</p>
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eligendi culpa aliquid deleniti eos, quas pariatur id ad consectetur nam, dolor dicta omnis ipsam. Velit natus minus dolorem autem consequatur..</p>
               <a href="/view-users" className="btn">
-                Edit profile
+              Book a time for view
               </a>
             </div>
           </div>
@@ -190,12 +190,12 @@ export default function Home() {
         {/* Card 3 */}
         <div className="col-md-3">
           <div className="card">
-            <img src="image_url_3" alt="Image 3" className="card-img-top" />
+            <img src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e" alt="Image 3" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">My Profile</h5>
-              <p className="card-text">View My Profile.</p>
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi temporibus sunt eveniet placeat earum minima possimus eius, debitis provident! Dolores maxime, eius amet omnis voluptatibus pariatur earum repudiandae. Modi, beatae?.</p>
               <a href="/view-users" className="btn">
-                Edit profile
+              Book a time for view
               </a>
             </div>
           </div>
@@ -204,12 +204,12 @@ export default function Home() {
         {/* Card 4 */}
         <div className="col-md-3">
           <div className="card">
-            <img src="image_url_4" alt="Image 4" className="card-img-top" />
+            <img src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e" alt="Image 4" className="card-img-top" />
             <div className="card-body">
-              <h5 className="card-title">My Profile</h5>
-              <p className="card-text">View My Profile.</p>
+              <h5 className="card-title">car test1</h5>
+              <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur quam possimus voluptatibus, commodi porro eos adipisci alias ducimus voluptatem aliquid facilis odio excepturi beatae impedit hic molestias a temporibus..</p>
               <a href="/view-users" className="btn">
-                Edit profile
+              Book a time for view
               </a>
             </div>
           </div>

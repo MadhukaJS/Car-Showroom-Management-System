@@ -8,6 +8,7 @@ import OwnerDashboard from './components/owner/OwnerDashboard';
 import VisitorDashboard from './components/visitor/VisitorDashboard';
 import Registration from './components/Registration';
 import AddAds from './components/owner/AddAds';
+import ViewAds from './components/owner/ViewAds';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="registration" element={<Registration />} />
         <Route path="addads" element={<AddAds />} />
+        <Route path="viewads" element={<ViewAds />} />
 
         {/* admin */}
         <Route path="adminDashoboard" element={<AdminDashboard />} />
