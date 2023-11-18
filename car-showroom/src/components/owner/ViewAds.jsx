@@ -1,20 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 
-function ViewAds({ match }) {
+function ViewAds() {
   const [advertisement, setAdvertisement] = useState(null);
 
   useEffect(() => {
-    const advertisementId = match.params.id;
-
-    Axios.get(`http://localhost:5000/advertisement/${advertisementId}`)
+    Axios.get('http://localhost:5000/advertisement')
       .then((response) => {
         setAdvertisement(response.data.data.advertisement);
       })
       .catch((error) => {
         console.error('Error fetching advertisement:', error);
       });
-  }, [match.params.id]);
+  }, []); // Add an empty dependency array to run the effect only once on mount
 
   if (!advertisement) {
     return <div>Loading...</div>;
@@ -25,8 +23,6 @@ function ViewAds({ match }) {
       <h2>{advertisement.title}</h2>
       <p>{advertisement.description}</p>
       <img src={advertisement.imageUrl} alt={advertisement.title} />
-      
-     
     </div>
   );
 }

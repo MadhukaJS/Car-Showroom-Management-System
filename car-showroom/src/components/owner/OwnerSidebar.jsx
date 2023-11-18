@@ -12,7 +12,7 @@ const Sidebar = () => {
         {/* Sidebar - Brand */}
         <a
           className="sidebar-brand d-flex align-items-center justify-content-center"
-          href="index.html"
+          href="/home"
         >
           <div className="sidebar-brand-icon rotate-n-15">
             <i className="fas fa-laugh-wink"></i>
@@ -24,12 +24,12 @@ const Sidebar = () => {
 
         <hr className="sidebar-divider my-0" />
 
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link" href="index.html">
             <i className="fas fa-fw fa-tachometer-alt"></i>
             <span>Homepage</span>
           </a>
-        </li>
+        </li> */}
 
         <hr className="sidebar-divider" />
 
