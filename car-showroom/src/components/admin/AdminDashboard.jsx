@@ -40,7 +40,7 @@ export default function AdminDashboard() {
             <div className="d-flex justify-content-center align-items-center p-4">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">Add Users</h5>
+                            <h5 className="card-title">Add Owners</h5>
                             <p className="card-text">Add new users to your system.</p>
                             <a href="/add-users" className="btn ">Go to Add Users</a>
                         </div>
