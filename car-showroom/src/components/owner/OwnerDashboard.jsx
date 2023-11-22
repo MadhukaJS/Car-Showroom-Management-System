@@ -56,7 +56,7 @@ export default function OwnerDashboard() {
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">My Advertisements</h5>
-                            <p className="card-text">View and manage bookings.</p>
+                            <p className="card-text">View and manage advertisements.</p>
                             <a href="/viewads" className="btn ">View My Advertisements</a>
                         </div>
                     </div>
