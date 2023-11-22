@@ -47,7 +47,14 @@ export default function AdminDashboard() {
                     </div>
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">View Users</h5>
+                            <h5 className="card-title">View Visitors</h5>
+                            <p className="card-text">View and manage existing users.</p>
+                            <a href="/view-users" className="btn ">Go to View Users</a>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">View Owners</h5>
                             <p className="card-text">View and manage existing users.</p>
                             <a href="/view-users" className="btn ">Go to View Users</a>
                         </div>
