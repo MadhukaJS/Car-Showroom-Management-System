@@ -29,7 +29,7 @@ function Login() {
         console.log("login successful");
         setError(''); // Reset error on success
         setSuccess(true);
-        navigate('/ownerdashboard');
+        navigate('/adminDashoboard');
       });
     } catch (err) {
       console.error("Registration failed", err.response.data);
