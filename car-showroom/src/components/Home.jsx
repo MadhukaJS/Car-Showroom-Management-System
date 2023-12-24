@@ -152,7 +152,7 @@ export default function Home() {
             <img src="https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?w=996&t=st=1698294435~exp=1698295035~hmac=818ff762e044fd8dd9b9a237c615c6cdb90f3e201732838e08524094457d5d5e" alt="Image 4" className="card-img-top" />
             <div className="card-body">
               <h5 className="card-title">car test1</h5>
-              <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo iure natus eaque saepe ex ut eum ipsam, quibusdam non nemo corrupti cupiditate adipisci voluptatibus eius iste, sint blanditiis magnam..</p>
+              <p className="card-text">Lorem ipsum .eque explicabo iure natus eaque saepe ex ut eum ipsam, quibusdam non nemo corrupti cupiditate adipisci voluptatibus eius iste, sint blanditiis magnam..</p>
               <a href="/view-users" className="btn">
               Book a time for view
               </a>
