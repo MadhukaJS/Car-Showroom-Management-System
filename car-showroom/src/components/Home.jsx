@@ -76,9 +76,7 @@ export default function Home() {
             alt="Image 1"
           />
         </div>
-        {/* <div>
-          <img src="https://assets.carpages.ca/dealersite/prod-wp-redline-auto-sales/uploads/2022/03/shutterstock_636632101__1_-scaled-1-e1668026364567.jpeg" alt="Image 2" />
-        </div>
+        {/* <
         <div>
           <img src="https://dragon2000-multisite.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/274/2022/04/19143130/hollins-hill-car-sales-home-hero-05.jpg" alt="Image 3" />
         </div> */}
