@@ -11,7 +11,7 @@ function AddAds() {
   const addAdvertisement = () => {
     Axios.post('http://localhost:5000/post-advertisement', adData)
       .then((response) => {
-        console.log('Advertisement added:', response.data);
+        console.log('Advertisement added!:', response.data);
         // Optionally reset the form
         setAdData({
           title: '',
