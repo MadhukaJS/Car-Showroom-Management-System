@@ -38,6 +38,8 @@ export default function AdminDashboard() {
             <h1 className="h3 mb-4 text-gray-800">Admin Dashboard</h1>
             {/* Add your page content here */}
             <div className="d-flex justify-content-center align-items-center p-4">
+
+              {/* add owners */}
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Add Owners</h5>
@@ -45,7 +47,7 @@ export default function AdminDashboard() {
                             <a href="/add-users" className="btn">Go to Add Users</a>
                         </div>
                     </div>
-
+              {/* view owners */}
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">View Owners</h5>
@@ -53,7 +55,7 @@ export default function AdminDashboard() {
                             <a href="/view-users" className="btn">Go to View Users</a>
                         </div>
                     </div>
-                    
+               {/* view visitors      */}
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">View Visitors</h5>
