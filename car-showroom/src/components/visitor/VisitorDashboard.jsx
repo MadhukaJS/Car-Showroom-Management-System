@@ -61,7 +61,7 @@ export default function VisitorDashboard() {
         </div>
 
 
-{/* -------------------------------------------------------------------------------------------- */}
+{/* -------------------------- */}
         {/* Footer */}
         <footer className="sticky-footer ">
           <div className="container my-auto">
