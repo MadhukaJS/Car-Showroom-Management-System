@@ -27,7 +27,7 @@ function App() {
         <Route path="addads" element={<AddAds />} />
         <Route path="viewads" element={<ViewAds />} />
 
-        <Route path="addbookings" element={<Addbookings />} />
+        <Route path="Addbookings" element={<Addbookings />} />
 
         {/* admin */}
         <Route path="adminDashoboard" element={<AdminDashboard />} />
