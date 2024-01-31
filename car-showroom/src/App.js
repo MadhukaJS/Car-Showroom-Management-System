@@ -10,7 +10,7 @@ import Registration from './components/Registration';
 import AddAds from './components/owner/AddAds';
 import ViewAds from './components/owner/ViewAds';
 
-import Addbookings from './components/visitor/Addbookings';
+import Addbookings from './components/Addbookings';
 
 
 
