@@ -10,6 +10,8 @@ import Registration from './components/Registration';
 import AddAds from './components/owner/AddAds';
 import ViewAds from './components/owner/ViewAds';
 
+import Addbookings from './components/visitor/Addbookings';
+
 
 
 
@@ -24,6 +26,8 @@ function App() {
         <Route path="registration" element={<Registration />} />
         <Route path="addads" element={<AddAds />} />
         <Route path="viewads" element={<ViewAds />} />
+
+        <Route path="addbookings" element={<Addbookings />} />
 
         {/* admin */}
         <Route path="adminDashoboard" element={<AdminDashboard />} />

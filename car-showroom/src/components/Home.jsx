@@ -101,7 +101,7 @@ export default function Home() {
             <div className="card-body">
               <h5 className="card-title">car test1</h5>
               <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur in ullam iusto! Itaque sequi repudiandae impedit. Libero ipsum architecto voluptate quibusdam dolore reprehenderit voluptates molestiae sapiente, quod non temporibus esse..</p>
-              <a href="/view-users" className="btn">
+              <a href="/Addbookings" className="btn">
               Book a time for view
               </a>
             </div>
