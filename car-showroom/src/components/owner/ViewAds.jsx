@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
-
+//VIEW booked vehicles
 function ViewAds() {
   const [advertisement, setAdvertisement] = useState(null);
 
